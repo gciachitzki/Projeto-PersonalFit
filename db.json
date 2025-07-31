@@ -1,0 +1,153 @@
+{
+  "personals": [
+    {
+      "id": "1",
+      "name": "Amanda Costa",
+      "bio": "Especialista em emagrecimento feminino com mais de 5 anos de experiência. Formada em Educação Física pela UFMG, especializada em treinamento funcional e nutrição esportiva. Ajudo mulheres a alcançarem seus objetivos de forma saudável e sustentável.",
+      "specialties": [
+        "Emagrecimento",
+        "Funcional"
+      ],
+      "rating": 4.8,
+      "city": "Goiânia",
+      "state": "GO",
+      "photoUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "whatsapp": "62988888888",
+      "price": 100,
+      "availableDays": ["segunda", "terça", "quarta", "quinta", "sexta"],
+      "availableHours": ["07:00", "08:00", "09:00", "17:00", "18:00", "19:00"],
+      "totalSessions": 245,
+      "reviews": [
+        {
+          "id": "1",
+          "personalId": "1",
+          "userName": "Maria Silva",
+          "userPhotoUrl": "https://randomuser.me/api/portraits/women/10.jpg",
+          "rating": 5.0,
+          "comment": "Excelente profissional! Em 3 meses consegui perder 8kg e me sinto muito mais disposta. A Amanda é muito atenciosa e sempre me motiva.",
+          "createdAt": "2024-01-15T10:00:00Z",
+          "photos": [],
+          "verified": true
+        },
+        {
+          "id": "2",
+          "personalId": "1",
+          "userName": "Ana Paula",
+          "userPhotoUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+          "rating": 4.5,
+          "comment": "Muito boa personal! Os treinos são desafiadores mas sempre respeitando meus limites. Recomendo!",
+          "createdAt": "2024-01-10T14:30:00Z",
+          "photos": [],
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Carlos Eduardo",
+      "bio": "Focado em hipertrofia masculina e treinos intensivos. Personal trainer certificado com especialização em musculação e biomecânica. Trabalho com atletas e pessoas que buscam ganho de massa muscular de forma eficiente e segura.",
+      "specialties": [
+        "Hipertrofia",
+        "Musculação"
+      ],
+      "rating": 4.6,
+      "city": "São Paulo",
+      "state": "SP",
+      "photoUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+      "whatsapp": "11998765432",
+      "price": 120,
+      "availableDays": ["segunda", "terça", "quarta", "quinta", "sexta", "sábado"],
+      "availableHours": ["06:00", "07:00", "08:00", "18:00", "19:00", "20:00"],
+      "totalSessions": 189,
+      "reviews": [
+        {
+          "id": "3",
+          "personalId": "2",
+          "userName": "João Santos",
+          "userPhotoUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+          "rating": 4.8,
+          "comment": "Carlos é um excelente profissional! Em 6 meses consegui ganhar 5kg de massa muscular. Os treinos são intensos mas muito eficientes.",
+          "createdAt": "2024-01-12T16:00:00Z",
+          "photos": [],
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Juliana Ferreira",
+      "bio": "Atendimento online e personalizado para mulheres. Especialista em treinamento remoto com mais de 3 anos de experiência. Formada em Educação Física e pós-graduada em Treinamento Esportivo. Ajudo mulheres a se manterem ativas mesmo com rotina agitada.",
+      "specialties": [
+        "Treinamento Online",
+        "Funcional",
+        "Emagrecimento"
+      ],
+      "rating": 4.9,
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "photoUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "whatsapp": "31991234567",
+      "price": 90,
+      "availableDays": ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"],
+      "availableHours": ["07:00", "08:00", "09:00", "10:00", "17:00", "18:00", "19:00", "20:00"],
+      "totalSessions": 312,
+      "reviews": [
+        {
+          "id": "4",
+          "personalId": "3",
+          "userName": "Fernanda Costa",
+          "userPhotoUrl": "https://randomuser.me/api/portraits/women/13.jpg",
+          "rating": 5.0,
+          "comment": "Juliana é incrível! Como trabalho muito, não conseguia ir à academia. Com ela, consigo treinar em casa e já perdi 6kg em 4 meses!",
+          "createdAt": "2024-01-18T09:00:00Z",
+          "photos": [],
+          "verified": true
+        },
+        {
+          "id": "5",
+          "personalId": "3",
+          "userName": "Patrícia Lima",
+          "userPhotoUrl": "https://randomuser.me/api/portraits/women/14.jpg",
+          "rating": 4.7,
+          "comment": "Muito satisfeita com o atendimento online! A Juliana é muito profissional e os treinos são adaptados perfeitamente para minha rotina.",
+          "createdAt": "2024-01-14T11:30:00Z",
+          "photos": [],
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "personalId": "1",
+      "personalName": "Amanda Costa",
+      "personalPhotoUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+      "userId": "user1",
+      "userName": "Maria Silva",
+      "date": "2024-01-25T00:00:00Z",
+      "time": "08:00",
+      "type": "inPerson",
+      "status": "confirmed",
+      "notes": "Primeira sessão, gostaria de focar em emagrecimento",
+      "personalNotes": "Cliente iniciante, focar em exercícios básicos",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-21T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "personalId": "3",
+      "personalName": "Juliana Ferreira",
+      "personalPhotoUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+      "userId": "user2",
+      "userName": "Ana Paula",
+      "date": "2024-01-26T00:00:00Z",
+      "time": "19:00",
+      "type": "online",
+      "status": "pending",
+      "notes": "Sessão online, tenho equipamentos básicos em casa",
+      "createdAt": "2024-01-22T15:00:00Z"
+    }
+  ],
+  "contact_interests": []
+} 
