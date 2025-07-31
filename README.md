@@ -7,7 +7,7 @@ Aplicativo Flutter para conectar usuários com personal trainers, permitindo vis
 ### 1. **Configuração Inicial**
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/personal-fit.git
+git clone https://github.com/gciachitzki/Projeto-PersonalFit.git
 cd personal-fit
 
 # Instale as dependências
