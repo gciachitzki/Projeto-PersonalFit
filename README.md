@@ -2,6 +2,8 @@
 
 Aplicativo Flutter para conectar usuários com personal trainers, permitindo visualização de perfis, agendamento de sessões e sistema de avaliações.
 
+link do app funcional: https://drive.google.com/file/d/1i1rdPpMaI1dpuX-L5VPtttZSG_I7bdh3/view?usp=sharing
+
 ## 🚀 Como Executar
 
 ### 1. **Configuração Inicial**
